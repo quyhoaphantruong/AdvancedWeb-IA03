@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
-const url = 'http://localhost:3000'
+const url = 'https://register-backend-one.vercel.app'
 
 function Register() {
   const { register, handleSubmit, formState: { errors }, watch } = useForm();
